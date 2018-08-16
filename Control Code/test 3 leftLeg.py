@@ -114,4 +114,9 @@ def RightLeg(newAnkle, newKnee, newHip, newBody):
     SetRightHipAngle(newHip)
     SetRightBodyAngle(newBody)
 
+
+LeftLeg(30,20,80,0)
+sleep(1)
+LeftLeg(30,110,80,0)
+
 GPIO.cleanup()

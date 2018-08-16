@@ -41,3 +41,6 @@ def leftFoot_Y_Angle():
 def rightFoot_Y_Angle():
     bus.write_byte_data(0x69, power_mgmt_1, 0)
     return read_word_2c(0x45) #returns the angle of rotation around y axiss of ankle
+
+
+print leftFoot_Y_Angle
